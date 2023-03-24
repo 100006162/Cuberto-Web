@@ -70,3 +70,15 @@
     .letra3{
     color: gray;
     }
+
+    @media screen and (max-width: 600px) {
+        .row {
+          flex-direction: column;
+        }
+        .column-2, .column-4, .column-5, .column-6, .column-8 {
+          width: 100%;
+          font-size: 24px;
+          padding: 20px;
+        }
+      }
+      
