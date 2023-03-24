@@ -75,8 +75,13 @@
         .row {
           flex-direction: column;
         }
-        .column-2, .column-4, .column-5, .column-6, .column-8 {
+        .column-2, .column-4, .column-5, .column-8 {
           width: 100%;
+          font-size: 24px;
+          padding: 20px;
+        }
+        .column-6 {
+          width: 50%;
           font-size: 24px;
           padding: 20px;
         }
